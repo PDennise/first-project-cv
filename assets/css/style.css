@@ -1,5 +1,5 @@
 /* Google font */
-@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Russo+One&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -14,13 +14,12 @@ body {
     flex-direction: column;
     /* Generic project styles */
     background-color: #fbfbfb;
-    font-family: 'Iceberg', sans-serif;
-    justify-content: flex-end;
+    font-family: 'Zain', sans-serif;
 }
 
 header {
     color: #4285F4;
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -29,11 +28,25 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none; 
+}
+
+a {
+    text-decoration: none; 
+}
+
+#menu {
+    list-style-type: none;
+
 }
 
 h1 {
     color: #4285F4;
-    font-family: 'Iceberg', sans-serif;
+    font-family: 'Zain', sans-serif;
 }
 
 .active {
@@ -43,33 +56,42 @@ h1 {
 main {
     background-color: #e5e7eb;
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 58px;
 }
 
 footer {
     color: #666666;
 
-} 
+}
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #8f8e8e;
     display: none;
+    color: #666666;
 
+}
+
+.menu {
+    color: #666666;
 }
 
 #nav-toggle:checked~nav {
     display: block;
     top: 100%
 }
+
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
+
+
