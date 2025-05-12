@@ -93,20 +93,21 @@ h5 {
 .button1 {
     color: white;
     background-color: #4285F4;
-    border-radius: 20%;
-    border-color: #4285F4;
-    border-radius: 30%;
-    text-align: center;
-    margin: 2rem;
+    border-radius: 25px;
+    padding: 20px;
+    width: 150px;
+    height: 25px;
+    border: none;
 }
 
 .button2 {
     color: black;
     background-color: white;
-    border-radius: 20%;
-    border-color: white;
-    border-radius: 30%;
-    margin: 2rem;
+    border-radius: 25px;
+    padding: 20px;
+    width: 150px;
+    height: 25px;
+    border: none;
 }
 
 main {
@@ -136,7 +137,7 @@ nav {
     color: black;
     text-align: center;
     font-family: 'Arial', Helvetica, sans-serif;
-    font-size: smaller;
+    font-size: medium;
     margin: 2em;
     margin-top: 3em;
 }
