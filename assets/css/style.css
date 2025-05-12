@@ -90,6 +90,7 @@ h5 {
     margin: 10% auto;
 }
 
+/* Ask Chatgpt */
 .button1 {
     color: white;
     background-color: #4285F4;
@@ -98,6 +99,13 @@ h5 {
     width: 150px;
     height: 25px;
     border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .button2 {
@@ -108,6 +116,24 @@ h5 {
     width: 150px;
     height: 25px;
     border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    /* Centers the buttons horizontally */
+    gap: 15px;
+    /* Space between buttons */
+    padding: 20px;
+    flex-wrap: wrap;
+    /* Allows buttons to wrap to the next line on small screens */
 }
 
 main {
