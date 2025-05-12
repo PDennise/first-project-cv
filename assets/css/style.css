@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    background-color: #fbfbfb;
+    background-color: #eceaea;
     font-family: 'Zain', sans-serif;
 }
 
@@ -24,7 +24,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #8f8e8e;
+    box-shadow: 0 2px 2px #bcbbbb;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -32,11 +32,11 @@ header {
 }
 
 header a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 #menu {
@@ -47,6 +47,17 @@ a {
 h1 {
     color: #4285F4;
     font-family: 'Zain', sans-serif;
+    margin-top: 15%;
+}
+
+p {
+    color: #4285F4;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Zain', sans-serif;
+    text-align: center;
 }
 
 .active {
@@ -54,50 +65,51 @@ h1 {
 }
 
 .profile-photo {
+    border-radius: 50%;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    
-}
-main {
-    background-color: #e5e7eb;
-    flex: 1 0 auto;
-    margin-top: 58px;
-}
-
-footer {
-    color: #666666;
-
-}
-
-/* Navbar styles with dropdown toggle */
-nav {
-    position: absolute;
-    background-color: #f8f8f8;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #8f8e8e;
-    display: none;
-    color: #666666;
-
-}
-
-.menu {
-    color: #666666;
-}
-
-#nav-toggle:checked~nav {
+    border: 8px solid #b9abab;
     display: block;
-    top: 100%
+    margin: 10% auto;
 }
 
-#nav-toggle {
-    display: none;
-}
+    main {
+        background-color: #eceaea;
+        flex: 1 0 auto;
+        margin-top: 58px;
+    }
 
-.nav-toggle-label {
-    font-size: 2rem;
-}
+    footer {
+        color: #666666;
+        background-color: seashell;
+    }
 
+    /* Navbar styles with dropdown toggle */
+    nav {
+        position: absolute;
+        background-color: #f8f8f8;
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px #8f8e8e;
+        display: none;
+        color: #666666;
 
+    }
+
+    .menu {
+        color: #666666;
+    }
+
+    #nav-toggle:checked~nav {
+        display: block;
+        top: 100%
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    .nav-toggle-label {
+        font-size: 2rem;
+    }
