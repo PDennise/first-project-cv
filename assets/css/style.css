@@ -65,9 +65,11 @@ h4 {
 
 .summary {
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial', Helvetica, sans-serif;
     font-size: medium;
     text-align: center;
+    margin: 1em;
+    margin-bottom: 2em;
 }
 
 h5 {
@@ -95,6 +97,7 @@ h5 {
     border-color: #4285F4;
     border-radius: 30%;
     text-align: center;
+    margin: 2rem;
 }
 
 .button2 {
@@ -103,7 +106,7 @@ h5 {
     border-radius: 20%;
     border-color: white;
     border-radius: 30%;
-   
+    margin: 2rem;
 }
 
 main {
@@ -127,7 +130,21 @@ nav {
     box-shadow: 0 2px 2px #8f8e8e;
     display: none;
     color: #666666;
+}
 
+.about-me {
+    color: black;
+    text-align: center;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: smaller;
+    margin: 2em;
+    margin-top: 3em;
+}
+
+#about-me {
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: black;
+    text-align: center;
 }
 
 .menu {
