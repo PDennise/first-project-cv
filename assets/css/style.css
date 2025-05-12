@@ -88,43 +88,61 @@ h5 {
     margin: 10% auto;
 }
 
-    main {
-        background-color: #eceaea;
-        flex: 1 0 auto;
-        margin-top: 58px;
-    }
+.button1 {
+    color: white;
+    background-color: #4285F4;
+    border-radius: 20%;
+    border-color: #4285F4;
+    border-radius: 30%;
+    text-align: center;
+}
 
-    footer {
-        color: #666666;
-        background-color: seashell;
-    }
+.button2 {
+    color: black;
+    background-color: white;
+    border-radius: 20%;
+    border-color: white;
+    border-radius: 30%;
+   
+}
 
-    /* Navbar styles with dropdown toggle */
-    nav {
-        position: absolute;
-        background-color: #f8f8f8;
-        width: 100%;
-        left: 0;
-        padding: 0 1rem;
-        box-shadow: 0 2px 2px #8f8e8e;
-        display: none;
-        color: #666666;
+main {
+    background-color: #eceaea;
+    flex: 1 0 auto;
+    margin-top: 58px;
+}
 
-    }
+footer {
+    color: #666666;
+    background-color: seashell;
+}
 
-    .menu {
-        color: #666666;
-    }
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #f8f8f8;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #8f8e8e;
+    display: none;
+    color: #666666;
 
-    #nav-toggle:checked~nav {
-        display: block;
-        top: 100%
-    }
+}
 
-    #nav-toggle {
-        display: none;
-    }
+.menu {
+    color: #666666;
+}
 
-    .nav-toggle-label {
-        font-size: 2rem;
-    }
+#nav-toggle:checked~nav {
+    display: block;
+    top: 100%
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
