@@ -196,6 +196,15 @@ nav {
     margin-bottom: 2em;
 }
 
+#travel-app {
+    color: black;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin: 1em;
+    margin-bottom: 2em;
+}
+
 .e-commerce, 
 .travel-app-ui-design {
     height: 200px;
@@ -205,6 +214,13 @@ nav {
     border-radius: 10%;
     font-family: 'Zain', Helvetica, sans-serif;
     font-size: 20px;
+}
+
+#contact {
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 3em;
 }
 
 .menu {
@@ -222,4 +238,9 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
 }
